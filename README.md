@@ -104,7 +104,7 @@ Fine-tuning used the Norwegian Summarisation Benchmark Dataset (NorSumm) and com
 
 The resulting fine-tuned checkpoints are available on Hugging Face:
 
-* [`llama-2-7b-chat-norwegian-sum`] (https://huggingface.co/GloriaABK1/llama-2-7b-chat-norwegian-sum)
+* [`GloriaABK1/llama-2-7b-chat-norwegian-sum`] (https://huggingface.co/GloriaABK1/llama-2-7b-chat-norwegian-sum)
 * [`GloriaABK1/normistral-7b-warm-norsumm`] (https://huggingface.co/GloriaABK1/llama-2-7b-chat-norwegian-sum)
 
 ## Prompting and Generation
