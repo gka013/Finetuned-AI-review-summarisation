@@ -1,0 +1,19 @@
+# Data — too large and subject to National Library terms of use
+2019_bokelskere.json
+*.json
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Environment / secrets
+.env
+*.env
+
+# OS
+.DS_Store
