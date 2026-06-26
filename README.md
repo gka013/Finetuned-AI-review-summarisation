@@ -2,7 +2,7 @@
 
 A Norwegian NLP project for generating concise, sentiment-aware summaries of user-generated book reviews.
 
-The project combines targeted sentiment analysis, parameter-efficient fine-tuning of Norwegian large language models, and quantitative evaluation. It was originally developed as a course project and has since been extended with production-oriented components: a commercial API integration, a REST service layer, and an MCP server exposing the pipeline as an agent-callable tool.
+The project combines targeted sentiment analysis, parameter-efficient fine-tuning of Norwegian large language models, and quantitative evaluation. It was originally developed as a course project and has, out of curiosity, been extended with production-oriented components using Claude Code: a commercial API integration, a REST service layer, and an MCP server exposing the pipeline as an agent-callable tool.
 
 While the current domain is Norwegian book reviews, the project demonstrates a transferable workflow for developing AI-powered summarisation components. With domain-specific data, evaluation, and appropriate safeguards, the same architecture could be adapted for document archives, email threads, support tickets, or case overviews.
 
@@ -167,7 +167,7 @@ The same Norwegian summarisation prompt is run through `claude-opus-4-8` (Anthro
 
 ### REST Service Layer (FastAPI)
 
-A production-ready FastAPI application wraps the NorMistral model as an HTTP endpoint with Pydantic request/response schemas, lifespan model loading (loaded once at startup), and a `/health` endpoint. On-premise deployment behind an API gateway satisfies GDPR Art. 44-49 data-transfer requirements for Norwegian user data.
+A production-ready FastAPI application wraps the NorMistral model as an HTTP endpoint with Pydantic request/response schemas, lifespan model loading (loaded once at startup), and a `/health` endpoint. On-premise deployment behind an API gateway satisfies GDPR data-transfer requirements for Norwegian user data.
 
 ### MCP Server
 
